@@ -8,19 +8,19 @@ const Navbar = () => {
 
   const ListItems = () =>(
     <>
-        <li className="p__opensans">
+        <li className="p__opensans" onClick={()=>{setToggle(false)}} >
           <a href="#home">Home</a>
         </li>
-        <li className="p__opensans">
+        <li className="p__opensans" onClick={()=>{setToggle(false)}} >
           <a href="#about">About</a>
         </li>
-        <li className="p__opensans">
+        <li className="p__opensans" onClick={()=>{setToggle(false)}} >
           <a href="#menu">Menu</a>
         </li>
-        <li className="p__opensans">
+        <li className="p__opensans" onClick={()=>{setToggle(false)}} >
           <a href="#awards">Awards</a>
         </li>
-        <li className="p__opensans">
+        <li className="p__opensans" onClick={()=>{setToggle(false)}} >
           <a href="#contact">Contact</a>
         </li>
     </>

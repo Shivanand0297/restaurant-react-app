@@ -40,9 +40,9 @@ const Intro = () => {
     ref={videoRef}
     />
 
-    <div class="flex__center" id='overlay' ref={overlayRef}
+    <div className="flex__center" id='overlay' ref={overlayRef}
     >
-      <div class="app__video-overlay_circle hidden"
+      <div className="app__video-overlay_circle hidden"
       ref={playButtonRef}
       onClick={handleVideo}
     >

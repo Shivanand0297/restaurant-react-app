@@ -64,6 +64,7 @@
 }
 
 .footer__copyright {
+    z-index: 10;
     margin-top: 3rem;
 }
 
